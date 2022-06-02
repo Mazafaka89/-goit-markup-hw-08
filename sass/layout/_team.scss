@@ -1,29 +1,61 @@
 .section-team {
-    padding-top: 94px;
-    padding-bottom: 94px;
-
     background-color: var(--team-bc-color);
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  @media screen and (min-width: 1200px) {
+   padding-top: 94px;
+   padding-bottom: 94px;
+  }
 }
 
 .section-title {
-    margin-bottom: 50px;
+   
+    margin-bottom: 30px;
+
+font-size: 28px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+
+text-align: center;
+
+color: var(--primary-text-color);
+
+@media screen and (min-width: 1200px) {
+ margin-bottom: 50px;
 
 font-size: 36px;
 line-height: 1.17;
-text-align: center;
 letter-spacing: 0.03em;
 
-    color: var(--primary-text-color);
+    }
 }
 
 .team{
-    display: flex;
-    margin-left: -30px;
+  
+  margin-bottom: -30px;
 
-    &__image {
-        width: calc(100% / 4 - 30px);
-        margin-left: 30px;
+  @media screen and (min-width: 768px) {
+      display: flex;
+      flex-wrap: wrap;
+      
+      margin-left: -30px;
+  }
     
+    &__image {
+       
+       margin-bottom: 30px;
+
+       @media screen and (min-width: 768px) {
+        width: calc(100% / 2 - 30px);
+        margin-left: 30px;
+       }
+
+       @media screen and (min-width: 1200px) {
+        width: calc(100% / 4 - 30px);
+       }
+       
         box-shadow: 0px 1px 3px #00000033, 0px 1px 1px #00000024,
         0px 2px 1px #0000001f;;
     }
@@ -31,7 +63,7 @@ letter-spacing: 0.03em;
 
 .team__box {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 32px;
 
     background-color: #fff;
 }

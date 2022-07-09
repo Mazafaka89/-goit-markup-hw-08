@@ -1,15 +1,21 @@
 
- p,h1,h2,h3,h4,h5,h6 {
+ *,
+ *:before,
+ *:after {
+     padding: 0;
      margin: 0;
+     box-sizing: border-box;
  }
 
  ul, ol {
-    padding-left: 0;
-    margin: 0;
+    list-style: none;
  }
 
  img {
      display: block;
      max-width: 100%;
      height: auto;
+ }
+ a {
+     text-decoration: none;
  }

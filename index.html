@@ -13,40 +13,61 @@
 </head>
  
 <body class="start-page"> 
-    <!--
+    <!--  -->
     <header class="header">
         <div class="container">
-            <a href="" class="logo header-logo link">Web<span class="logo__style logo--black link">Studio</span></a> 
-        <ul class="menu-list list ">
-            <li class="menu-list__item"><a href="" class="menu-list__link head-text current link">Студия</a></li>
-            <li class="menu-list__item"><a href="./portfolio.html" class="menu-list__link head-text link">Портфолио</a></li>
-            <li class="menu-list__item"><a href="" class="menu-list__link head-text link">Контакты</a></li>
-        </ul>
-    
-        <div class="navigation header-navigation">
-        <nav class="nav">
-            
-            <ul class="address list">
-                <li class="address__item"><a href="mailto:info@devstudio.com" class="address__mail head-text link">
-                    <svg class="address__mail-icon" width="16" height="12">
-                        <use href="./images/symbol-defs.svg#icon-envelope"></use>
-                    </svg>info@devstudio.com
-                </a>
-                </li>
-                <li class="address__item"><a href="tel:+380961111111" class="address__tel head-text link">
-                    <svg class="address__tel-icon" width="10" height="16">
-                        <use href="./images/symbol-defs.svg#icon-smartphone"></use>
-                    </svg>+38 096 111 11 11
-                </a>
-            </li>
-            </ul>
-        </nav>
+            <div class="header__inner">
+                <a href="" class="logo header-logo">Web<span class="logo__style logo__style--black">Studio</span></a> 
+                <div class="header__content"> 
+                    <ul class="menu-list">
+                        <li class="menu-list__item"><a href="" class="menu-list__link head-text current">Студия</a></li>
+                        <li class="menu-list__item"><a href="./portfolio.html" class="menu-list__link head-text">Портфолио</a></li>
+                        <li class="menu-list__item"><a href="" class="menu-list__link head-text">Контакты</a></li>
+                    </ul>
+        
+                    <div class="navigation header-navigation">
+                        <nav class="nav">
+                            <ul class="address">
+                                <li class="address__item">
+                                    <a href="mailto:info@devstudio.com" class="address__mail head-text">
+                                        <svg class="address__mail-icon" width="16" height="12">
+                                            <use href="./images/symbol-defs.svg#icon-envelope"></use>
+                                        </svg>info@devstudio.com
+                                    </a>
+                                </li>
+                                <li class="address__item">
+                                    <a href="tel:+380961111111" class="address__tel head-text">
+                                        <svg class="address__tel-icon" width="10" height="16">
+                                            <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+                                        </svg>+38 096 111 11 11
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <ul class="header__social">
+                            <li class="header__social-item">
+                                <a href="" class="header__social-link">Instagram</a>
+                            </li>
+                            <li class="header__social-item">
+                                <a href="" class="header__social-link">Twitter</a>
+                            </li>
+                            <li class="header__social-item">
+                                <a href="" class="header__social-link">Facebook</a>
+                            </li>
+                            <li class="header__social-item">
+                                <a href="" class="header__social-link">LinkedIn</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div> 
+                <button class="header__menu"></button>
+            </div>
         </div>
-        </div>
-    </header> -->
+    </header> 
 
     <main>
-        <!--
+        
         <section class="hero">
             <div class="container">
             <h1 class="hero__title">
@@ -55,7 +76,7 @@
             </h1>
                 <button type="button" class="hero__btn" data-modal-open>Заказать услугу</button>
             </div>
-        </section> -->
+        </section> 
         
         
         <section class="about about-section">
@@ -136,9 +157,9 @@
             <div class="container">
             <h2 class="section-title">Наша команда</h2>
             
-            <ul class="team list">
+            <ul class="team">
                 <li class="team__image">
-                    <img src="./images/ihor.jpg" alt="фото сотрудника" width="270" height="260">
+                    <img src="./images/ihor.jpg" alt="фото сотрудника">
                 <div class="team__box">
                     <h3 class="team__name">Игорь Демьяненко</h3>
                     <p lang="en" class="team__text">Product Designer</p>
@@ -171,7 +192,7 @@
                 </div>
                 </li>
                 <li class="team__image">
-                    <img src="./images/olga.jpg" alt="фото сотрудника" width="270" height="260">
+                    <img src="./images/olga.jpg" alt="фото сотрудника">
                 <div class="team__box">
                     <h3 class="team__name">Ольга Репина</h3>
                     <p lang="en" class="team__text">Frontend Developer</p>
@@ -204,7 +225,7 @@
                 </div>
                 </li>
                 <li class="team__image">
-                    <img src="./images/nikolay.jpg" alt="фото сотрудника" width="270" height="260">
+                    <img src="./images/nikolay.jpg" alt="фото сотрудника">
                 <div class="team__box">
                     <h3 class="team__name">Николай Тарасов</h3>
                     <p lang="en" class="team__text">Marketing</p>
@@ -237,7 +258,7 @@
                 </div>
                 </li>
                 <li class="team__image">
-                    <img src="./images/michael.jpg" alt="фото сотрудника" width="270" height="260">
+                    <img src="./images/michael.jpg" alt="фото сотрудника">
                 <div class="team__box">
                     <h3 class="team__name">Михаил Ермаков</h3>
                     <p lang="en" class="team__text">UI Designer</p>
@@ -272,11 +293,11 @@
             </ul>
         </div>
         </section>
-<!--
+
         <section class="section section-clients">
             <div class="container">
             <h2 class="section__title">Постоянные клиенты</h2>
-            <ul class="clients list">
+            <ul class="clients">
                 <li class="clients__item"><a href="" class="clients__link">
                     <svg class="clients__icon" width="106" height="60">
                         <use href="./images/symbol-defs.svg#icon-Logo-1"></use>
@@ -315,7 +336,7 @@
             </li>
             </ul>
             </div>
-        </section> -->
+        </section> 
 
     </main>
 <!--
@@ -378,7 +399,6 @@
           </form>
     </div>
     </footer> -->
-
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">

@@ -1,0 +1,29 @@
+.navigation {
+    padding: 60px 0 25px;
+
+    &__inner {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__button {
+        display: block;
+        margin-right: 8px;
+        margin-bottom: 15px;
+        padding: 0 22px;
+        background-color: $color-secondary;
+        border-radius: $default-radius;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 38px;
+        letter-spacing: 0.03em;
+        color: $text-color;
+        cursor: pointer;
+        transition: $default-transition;
+
+        &:hover {
+            background-color: $color-primary;
+            color: $color-white;
+        }
+    }
+}

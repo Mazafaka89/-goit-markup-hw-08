@@ -1,21 +1,10 @@
-@import "./utils/variables";
-@import "./utils/hidden";
-
-
 @import "./base/reset";
+@import "./base/variables";
 
 @import "./components/container";
-@import "./components/logo-color";
-@import "./components/head-text";
-@import "./components/secondary-text";
+@import "./components/logo";
+@import "./components/menu-button";
 
 @import "./layout/header";
-@import "./layout/hero";
-@import "./layout/about";
-@import "./layout/study";
-@import "./layout/team";
-@import "./layout/clients";
-@import "./layout/footer";
-@import "./layout/filter-btn";
-@import "./layout/filter";
-@import "./layout/modal";
+@import "./layout/navigation";
+@import "./layout/portfolio";
